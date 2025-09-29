@@ -1,0 +1,59 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Task 0 - Responsive Typography */
+h2 {
+  font-size: 24px;
+}
+p {
+  font-size: 16px;
+}
+
+/* Mobile (до 576px) */
+@media (max-width: 576px) {
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+/* Tablet (577px – 992px) */
+@media (min-width: 577px) and (max-width: 992px) {
+  h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+
+/* Desktop (от 993px и выше) */
+@media (min-width: 993px) {
+  h2 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Task 1 - Responsive Boxes with only CSS */
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.box {
+  flex: 1;
+  min-width: 250px;
+  margin: 5px;
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 8px;
+}
